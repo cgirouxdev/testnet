@@ -3,5 +3,5 @@ function testBot(username, displayName) {
 }
 
 
-console.log('HELLO¡!');
+console.log('HELLO!!');
 
