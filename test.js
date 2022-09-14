@@ -58,7 +58,7 @@ const COMMITS_QUERY = `
 
 
 gh.graph(COMMITS_QUERY, {allPages: false, variables: {repo: 'testnet', owner: 'cgirouxdev', prNumber: 85}}).then(res => {
-   console.log('RESULT ->', res)
+   console.log('RESULT! ->', res)
 }).catch(err => console.log('ERR ->', err));
 
 
